@@ -16,8 +16,7 @@ section_subject_domain_of_viruses<= nrel_section_decomposition:{
 section_subject_domain_of_virology;
 section_subject_domain_of_bacteriology;
 section_subject_domain_of_protistology;
-section_subject_domain_of_mycology;
-section_subject_domain_of_parasitology
+section_subject_domain_of_mycology
 };;
 
 concept_microorganism<-sc_node_not_relation;;
