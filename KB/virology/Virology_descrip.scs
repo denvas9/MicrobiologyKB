@@ -25,8 +25,8 @@ microbiology
 <-rrel_key_sc_element:...(*
 <-explanation;;
 =>nrel_main_idtf:
-[Утв.(Микробиология)](*<-lang_ru;;*);
-[Stat.(Microbiology)](*<-lang_en;;*);;
+[Утв.(Вирусология)](*<-lang_ru;;*);
+[Stat.(Virology)](*<-lang_en;;*);;
 =>nrel_using_constants:{
 concept_organism;
 concept_animal;
@@ -40,4 +40,4 @@ concept_archaea
 *);;
 *);;
 
-virology <= nrel_inclusion:microbiology;;
+virology <= nrel_inclusion:science;;
