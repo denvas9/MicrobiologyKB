@@ -12,7 +12,7 @@ concept_microorganism
 };;
 <=nrel_sc_text_translation:...(*
 ->[Вирус - субмикроскопический инфекционный агент, один из типов изучаемых микроорганизмов. который может воспроизводиться только внутри живых клеток других организмов.](* <- lang_ru;; => nrel_format: format_html;; *);;
-->[Virus is a submicroscopic infectious agent, one of types of studied microorganisms that replicates only inside the living cells of an organism.](* <- lang_en;; => nrel_format: format_html;; *);;
+->[Virus is a submicroscopic infectious agent, one of the types of studied microorganisms that replicates only inside the living cells of an organism.](* <- lang_en;; => nrel_format: format_html;; *);;
 *);;
 *);
 
