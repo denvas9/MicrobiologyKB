@@ -35,7 +35,7 @@ concept_Trapavirae_kingdom
 *);;
 
 concept_Monodnaviria_realm<-concept_virus_realm;;
-concept_Monodnaviria_realm<=nrel_basic_decomposition:{
+concept_Monodnaviria_realm<=nrel_inclusion:{
 concept_Loebvirae_kingdom;
 concept_Sangervirae_kingdom;
 concept_Trapavirae_kingdom
