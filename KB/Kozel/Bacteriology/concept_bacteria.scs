@@ -12,7 +12,7 @@ concept_microorganism
 };;
 <=nrel_sc_text_translation:...(*
 ->[Бактерии - обширная группа одноклеточных микроорганизмов, характеризующихся отсутствием окруженного оболочкой клеточного ядра.](* <- lang_ru;; => nrel_format: format_html;; *);;
-->[A large group of single-celled microorganisms characterized by the absence of a cell nucleus surrounded by a shell.](* <- lang_en;; => nrel_format: format_html;; *);;
+->[Bacteria is a large group of single-celled microorganisms characterized by the absence of a cell nucleus surrounded by a shell.](* <- lang_en;; => nrel_format: format_html;; *);;
 *);;
 *);
 

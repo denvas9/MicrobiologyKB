@@ -25,8 +25,8 @@ concept_bacteria
 concept_cell
 };;
 <=nrel_sc_text_translation:...(*
-->[Бактерии могут воспроизводится как внутри живых клеток, так и внутри неживых.](* <- lang_ru;; => nrel_format: format_html;; *);;
-->[Bacteria can reproduce both inside living cells and in non-living ones.](* <- lang_en;; => nrel_format: format_html;; *);;
+->[Делятся в одной плоскости, но при делении не отделяются друг от друга и образуют цепочки.](* <- lang_ru;; => nrel_format: format_html;; *);;
+->[They replicate in the same plane, but they do not separate from each other and form chains.](* <- lang_en;; => nrel_format: format_html;; *);;
 *);;
 *);;
 
