@@ -41,3 +41,4 @@ concept_archaea
 *);;
 
 virology <= nrel_inclusion:science;;
+virology <= nrel_inclusion:microbiology;;

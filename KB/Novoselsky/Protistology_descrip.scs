@@ -35,3 +35,4 @@ concept_discipline
 *);;
 
 protistology <= nrel_inclusion:microbiology;;
+protistology <= nrel_inclusion:science;;
