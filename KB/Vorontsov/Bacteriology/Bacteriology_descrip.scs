@@ -42,3 +42,4 @@ concept_parasite
 *);;
 
 bacteriology <= nrel_inclusion:science;;
+bacteriology <= nrel_inclusion:microbiology;;
