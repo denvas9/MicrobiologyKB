@@ -1,0 +1,33 @@
+concept_spherical_bacteria<-sc_node_not_relation;
+=>nrel_main_idtf:
+[Шаровидные бактерии] (*<-lang_ru;;*);
+[Spherical Bacteria] (*<-lang_en;;*);
+<-rrel_key_sc_element:...(*
+<-definition;;
+=>nrel_main_idtf:
+[Опр.(Шаровидные бактерии)](*<-lang_ru;;*);
+[Def.(Spherical bacteria)](*<-lang_en;;*);;
+=>nrel_using_constants:{
+concept_bacteria
+};;
+<=nrel_sc_text_translation:...(*
+->[Бактерии,имеющие шаровидную(элипсоидную, бобовидную) форму.](* <- lang_ru;; => nrel_format: format_html;; *);;
+->[Bacteria that have a spherical (ellipsoid, bean-shaped) shape.](* <- lang_en;; => nrel_format: format_html;; *);;
+*);;
+*);
+
+<-rrel_key_sc_element:...(*
+<-explanation;;
+=>nrel_main_idtf:
+[Утв.(Шаровидные бактерии)](*<-lang_ru;;*);
+[Stat.(Spherical bacteria)](*<-lang_en;;*);;
+=>nrel_using_constants:{
+concept_cell
+};;
+<=nrel_sc_text_translation:...(*
+->[Бактерии могут воспроизводится как внутри живых клеток, так и внутри неживых.](* <- lang_ru;; => nrel_format: format_html;; *);;
+->[Bacteria can reproduce both inside living cells and in non-living ones.](* <- lang_en;; => nrel_format: format_html;; *);;
+*);;
+*);;
+
+concept_spherical_bacteria<=nrel_inclusion:concept_bacteria;;
