@@ -7,5 +7,5 @@ section_of_known_bacteria_kingdoms<-non_atomic_section;
 
 section_of_known_bacteria_kingdoms-> rrel_key_sc_element:
 concept_Eubacteria_kingdom;
-concept_Archaebacteria_kingdom;
+concept_Archaebacteria_kingdom;;
 
