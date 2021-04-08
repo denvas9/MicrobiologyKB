@@ -8,6 +8,7 @@ section_of_general_bacteriology;
 section_of_medical_bacteriology;
 section_of_agrarian_bacteriology;
 section_of_technical_bacteriology;
+section_subject_domain_of_bacteria_study_methods
 section_subject_domain_of_bacteria
 };;
 
@@ -16,8 +17,12 @@ bacteriology;;
 
 section_subject_domain_of_bacteria<-non_atomic_section;
 =>nrel_main_idtf:
-[Раздел. Предметная область бактерий] (*<-lang_ru;;*);
-[Section. Subject domain of bacteria] (*<-lang_en;;*);;
+[Раздел. Бактерии] (*<-lang_ru;;*);
+[Section. Bacteria] (*<-lang_en;;*);;
+
+section_subject_domain_of_bacteria<= nrel_section_decomposition:{
+section_of_bacteria_taxonomy
+};;
 
 section_subject_domain_of_bacteria-> rrel_key_sc_element:
 concept_bacteria;
