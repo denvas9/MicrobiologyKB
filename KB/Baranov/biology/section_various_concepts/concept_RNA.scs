@@ -22,7 +22,7 @@ concept_virus
 [Утв.(РНК)](*<-lang_ru;;*);
 [Stat.(RNA)](*<-lang_en;;*);;
 =>nrel_using_constants:{
-concept_virus
+concept_virus;
 concept_genome
 };;
 <=nrel_sc_text_translation:...(*
