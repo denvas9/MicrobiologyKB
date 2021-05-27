@@ -26,7 +26,7 @@ concept_RNA
 concept_RNA
 };;
 <=nrel_sc_text_translation:...(*
-->[Обычно нуклеиновая кислота одноцепочечная (оцРНК) но может быть и двуцепочечной (дцРНК)[2].](* <- lang_ru;; => nrel_format: format_html;; *);;
+->[Обычно нуклеиновая кислота одноцепочечная (оцРНК) но может быть и двуцепочечной (дцРНК).](* <- lang_ru;; => nrel_format: format_html;; *);;
 ->[This nucleic acid is usually single-stranded RNA (ssRNA) but may be double-stranded RNA (dsRNA).](* <- lang_en;; => nrel_format: format_html;; *);;
 *);;
 *);;
