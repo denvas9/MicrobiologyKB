@@ -1,0 +1,17 @@
+ui_menu_file_for_virus_species_analogy_search
+	<- 	ui_user_command_class_atom;
+		ui_user_command_class_view_kb;
+	=> nrel_main_idtf: 
+		[Найти похожие виды вирусов] (* <- lang_ru;; *);
+		[Find similar virus species] (* <- lang_en;; *);
+	=> ui_nrel_command_template:
+		[*
+		question_similar_virus _-> ._question_similar_virus_instance
+			(*
+				_-> ui_arg_1;;
+			*);;
+		._question_similar_virus_instance_<- question;;
+		*];
+	=> ui_nrel_command_lang_template: 
+		[Запрос поиска для: $ui_arg_1] (* <- lang_ru;; *);
+                [Search request for: $ui_arg_1] (* <- lang_en;; *);;
