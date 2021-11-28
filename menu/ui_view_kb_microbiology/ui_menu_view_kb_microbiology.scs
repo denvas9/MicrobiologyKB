@@ -1,9 +1,0 @@
-ui_menu_view_kb_microbiology <- ui_user_command_class_noatom;;
-ui_menu_view_kb_microbiology => nrel_main_idtf: [Команды для ИСС по микробиологии] (* <- lang_ru;; *);;
-ui_menu_view_kb_microbiology => nrel_main_idtf: [Microbiology commands] (* <- lang_en;; *);;
-ui_menu_view_kb_microbiology <= nrel_ui_commands_decomposition:
-{
-	ui_menu_file_for_virus_species_analogy_search;
-	ui_menu_file_for_more_deadly_human_viruses_search;
-	ui_menu_file_for_less_deadly_human_viruses_search
-};;
