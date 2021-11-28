@@ -5,6 +5,9 @@ test_virus_disease_3<-sc_node_not_relation;
 
 test_virus_disease_3<-concept_disease;;
 
-test_virus_disease_3=>nrel_deathrate:76;;
+test_virus_disease_3<-concept_human_viral_disease;;
+
+test_virus_disease_3=>nrel_dead:[2500];;
+test_virus_disease_3=>nrel_ill:[4000];;
 
 test_virus_disease_3=>nrel_disease_object:concept_human;;

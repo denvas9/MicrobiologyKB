@@ -6,7 +6,11 @@ section_of_known_human_diseases<-non_atomic_section;
 
 
 section_of_known_human_diseases-> rrel_key_sc_element:
-test_virus_disease_1;;
+test_virus_disease_1;
+test_virus_disease_2;
+test_virus_disease_3;
+test_disease_15;
+test_virus_disease_5;;
 
 
 

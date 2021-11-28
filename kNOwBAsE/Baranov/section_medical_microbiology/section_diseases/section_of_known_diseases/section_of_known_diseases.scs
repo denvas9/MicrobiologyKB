@@ -6,6 +6,7 @@ section_of_known_diseases<-non_atomic_section;
 
 
 section_of_known_diseases<= nrel_section_decomposition:{
-section_of_known_human_diseases
+section_of_known_human_diseases;
+section_of_known_animal_diseases
 };;
 

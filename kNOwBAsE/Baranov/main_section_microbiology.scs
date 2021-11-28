@@ -12,6 +12,7 @@ section_medical_microbiology
 };;
 
 section_microbiology-> rrel_key_sc_element:
+test_species_45;
 microbiology;
 concept_microorganism;;
 
