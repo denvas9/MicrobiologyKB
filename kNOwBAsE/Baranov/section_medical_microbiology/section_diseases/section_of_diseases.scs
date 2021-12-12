@@ -13,4 +13,10 @@ section_of_diseases-> rrel_key_sc_element:
 nrel_causes_disease;
 nrel_deathrate;
 nrel_disease_object;
+nrel_similar_disease;
+nrel_asDeadly;
+nrel_moreDeadly;
+nrel_lessDeadly;
+nrel_ill;
+nrel_dead;
 concept_disease;;

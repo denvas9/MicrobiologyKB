@@ -7,7 +7,7 @@ test_disease_15<-concept_disease;;
 
 test_disease_15<-concept_human_disease;;
 
-test_disease_15=>nrel_dead:[90];;
-test_disease_15=>nrel_ill:[500];;
+test_disease_15=>nrel_deathrate:[90];;
+test_disease_15=>nrel_gayparty:[50];;
 
 test_disease_15=>nrel_disease_object:concept_human;;
