@@ -9,7 +9,7 @@ git clone https://github.com/denvas9/MicrobiologyKB.git
 Сам остис и инструкцию по его установке/запуску смотреть здесь: https://github.com/ostis-apps/ostis-example-app
 
 
-# Для запуска агентов данной системы
+## Для запуска агентов данной системы
 
 1. Выберите одно тестовое понятие и, наведя курсор на название, нажмите ПКМ.
 ![изображение](https://user-images.githubusercontent.com/56515595/143863781-51c63f85-f8f0-42f2-8697-2b09b2ee035d.png)
