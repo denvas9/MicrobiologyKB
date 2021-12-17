@@ -8,7 +8,8 @@ section_virology;
 section_bacteriology;
 section_protistology;
 section_mycology;
-section_medical_microbiology
+section_medical_microbiology;
+section_science_microbiology
 };;
 
 section_microbiology-> rrel_key_sc_element:
