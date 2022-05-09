@@ -65,6 +65,42 @@ scp_program ->agent_proc_search_operation6 (*
   <- genEl;; 
     -> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer;; 
  
+    =>nrel_goto: .agent_proc_search_operation6_operator_temp_search_answer;; 
+  *);; 
+
+// PLACEHOLDER поиск уже существующего ранее закреплённого ответа
+-> .agent_proc_search_operation6_operator_temp_search_answer
+(*
+	<- searchElStr3;;
+
+	-> rrel_1: rrel_fixed: rrel_scp_const: placeholder_answer;;
+	-> rrel_2: rrel_assign: rrel_pos_const_perm : rrel_scp_var: _arc_answ_delete;;
+	-> rrel_3: rrel_assign: rrel_scp_var: _some_answ;;
+// если был найден, переход к удалению
+	=> nrel_then : .agent_proc_search_operation6_operator_temp_delete_answer;;
+// если не был найден, переход к связыванию
+	=> nrel_else: .agent_proc_search_operation6_operator_temp_con_answer ;;
+*);;
+
+// убираем ранее прикреплённый ответ
+-> .agent_proc_search_operation6_operator_temp_delete_answer
+(*
+	<- eraseEl;;
+
+	-> rrel_1: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: rrel_erase: _arc_answ_delete;;
+
+	=>nrel_goto: .agent_proc_search_operation6_operator_temp_con_answer;; 
+*);;
+  
+// привязываем новый ответ
+-> .agent_proc_search_operation6_operator_temp_con_answer (*
+
+  <- genElStr3;; 
+	-> rrel_1: rrel_fixed: rrel_scp_const: placeholder_answer;; 
+    	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _temp_arc;; 
+    	-> rrel_3: rrel_fixed: rrel_scp_var: _answer;; 
+
+ 
     =>nrel_goto: .agent_proc_search_operation6_operator5;; 
   *);; 
 
